@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 34,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "7gxw0pedn0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 25,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 34,
+  "originalTopRow": 27,
+  "parentColumnSpace": 6.9375,
+  "parentId": "q6bhf07bcu",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Todo\", \"value\": \"Todo\" },\n  { \"label\": \"In Progress\", \"value\": \"In Progress\" },\n  { \"label\": \"Review\", \"value\": \"Review\" },\n  { \"label\": \"Done\", \"value\": \"Done\" }\n]\n\n",
+  "topRow": 27,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jnbxu1mcdt",
+  "widgetName": "StatusDropdown"
+}

@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  Table2.selectedRow.priority ))(Edit_Priority_Dropdown.options, Edit_Priority_Dropdown.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "7gxw0pedn0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Priority",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 34,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 43,
+  "originalTopRow": 36,
+  "parentColumnSpace": 6.9375,
+  "parentId": "0imdjuean3",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Low\", \"value\": \"Low\" },\n  { \"label\": \"Medium\", \"value\": \"Medium\" },\n  { \"label\": \"High\", \"value\": \"High\" },\n  { \"label\": \"Critical\", \"value\": \"Critical\" }\n]\n",
+  "topRow": 36,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jd1riu5xr9",
+  "widgetName": "Edit_Priority_Dropdown"
+}
